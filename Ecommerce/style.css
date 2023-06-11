@@ -1,0 +1,157 @@
+*{
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.Login a{
+    text-decoration: none;
+    color: black; 
+}
+
+.back a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(99, 99, 99);
+}
+
+.forms-container {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.signin-form p,
+.create-account-form p{
+    margin-bottom: 25px;
+    text-decoration: underline;
+
+}
+.signin-form,
+.create-account-form {
+    background-color: antiquewhite;
+    width: 48%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.signin-form input,
+.create-account-form input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.signin-form input[type="submit"],
+.create-account-form input[type="submit"] {
+    margin-top: 25px;
+    width: 50%;
+    padding: 5px;
+}
+.create-account-form{
+    margin-top: 23px;
+}
+
+
+.content {
+    margin: 100px auto;
+    width: 90%;
+    height: 300px;
+    border-radius: 5px;
+    padding:5px;
+}
+.item-image-container {
+    background-color: rgba(146, 52, 118, 0.425);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.item {
+    flex-basis: calc(16% - 20px); /* Adjust the value as per your preference */
+    min-width: 170px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: white; /* Optional: Add a white background to each item */
+    border-radius: 5px;
+    overflow: hidden;
+}
+.item:hover{
+    background-color: rgba(94, 94, 94, 0.315);
+}
+
+.item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.item-name,
+.item-desc,
+.item-price
+{
+    display: flex;
+    justify-content: center;
+}
+
+.add-to-cart {
+    margin-left: 22px;
+    margin-top: 10px;
+    background-color: rgba(146, 52, 118, 0.425);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.add-to-cart:hover {
+    background-color: #6c1e55;
+}
+
+.basket-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+  
+.basket-item-container {
+    flex-basis: calc(33.33% - 20px); /* Adjust the value as per your preference */
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+  
+
+  
+  
+  
+ 
